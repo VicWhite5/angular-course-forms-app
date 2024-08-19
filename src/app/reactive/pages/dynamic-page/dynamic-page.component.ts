@@ -63,7 +63,7 @@ export class DynamicPageComponent {
   }
 
   onAddFavorite(): void {
-    if (this.newFavorite.invalid) return;
+    if (this.newFavorite.invalid) return; 
 
     const newGame = this.newFavorite.value;
 
